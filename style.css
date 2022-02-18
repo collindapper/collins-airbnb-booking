@@ -1,0 +1,117 @@
+/* Body */
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Nav Bar */
+nav,
+.navbar-brand,
+.nav-item,
+.nav-link {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar-toggler {
+  outline: none;
+  border: none;
+}
+
+/* Latest News */
+@media (min-width: 768px) {
+  .latestNews {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+.followIcons > i {
+  font-size: 32px;
+}
+
+/* Slideshow Section */
+.slideShow {
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+  .carouselImg,
+  .carouselCaption {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .carouselCaption {
+    width: 900px;
+  }
+}
+  
+@media (max-width: 768px) {
+  .carousel-inner {
+    font-size: 75%;
+  }
+
+  .carouselHeading {
+    font-size: 200%;
+  }
+}
+
+/* Categories */
+.categories-btn:hover {
+  transform: scale(1.2);
+}
+
+.categories-btn:active {
+  transform: scale(1.2);
+}
+
+.categories-heading,
+.categories-articles {
+  font-weight: 700;
+}
+
+.categories-articles {
+  font-size: 18px;
+}
+
+.categories-secondary {
+  font-size: 14px;
+}
+
+/* Newsletter */
+.newsletterRow {
+  background-color: black;
+}
+
+.newsletterHeading > h3 {
+  font-size: 28px;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(243, 243, 243);
+}
+
+.footerSubheadings {
+  font-weight: 700;
+}
+
+.footerSubheadings,
+.footerLinks {
+  list-style: none;
+  font-size: 12px;
+}
+
+.footerIcons {
+  list-style: none;
+  font-size: 25px;
+}
